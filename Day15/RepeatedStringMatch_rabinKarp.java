@@ -42,7 +42,7 @@ class Solution {
         long base = 31; // base
         long mod = 997; // hash table size , to handle very large number
         
-        // preCompute =  base^(N-1) need to remove out of window character
+        // preCompute =  base^(m-1) need to remove out of window character
         // as we need to remove out of window digit we multiply it wit char*base^(N-1)
         long preCompute = 1;
         for (int i = 1; i < m; i++) {
