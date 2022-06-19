@@ -28,6 +28,8 @@ class Solution {
         if(hTarget==hSource) return 0;
         
         for(int j=1;j<=M-N;j++){
+
+            // this is where we are rolling our hash value to calculate next hashvlaue
             // removed out of window character
             hSource =  (hSource - source.charAt(j-1)*preCompute)%mod;
             
