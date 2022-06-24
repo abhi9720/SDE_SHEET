@@ -1,3 +1,4 @@
+// Approach 1 
 // Using built in function contain in java
 class Solution {
     public int repeatedStringMatch(String s, String p) {        
@@ -13,7 +14,7 @@ class Solution {
         return -1;                
     }   
 }
-
+// Approach 2
 // Using rabinkarp for pattern matching in string in O(n);
 class Solution {
 
